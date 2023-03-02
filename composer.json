@@ -1,0 +1,32 @@
+{
+    "name": "SimplestAdmin/think-captcha",
+    "description": "Captcha package for API",
+    "authors": [
+        {
+            "name": "SimplestAdmin",
+            "email": "11905091@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "topthink/framework": "^6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "raiseinfo\\captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "raiseinfo\\captcha\\CaptchaService"
+            ],
+            "config":{
+                "captcha": "src/config.php"
+            }            
+        }
+    }
+}
