@@ -3,8 +3,8 @@
 thinkphp6 验证码类库，支持API接口。
 
 ## 安装
-> composer require SimplestAdmin/think-captcha
-> composer.json 添加： "SimplestAdmin/think-captcha": "1.0.0"
+> composer require simplestadmin/think-captcha
+> composer.json 添加： "simplestadmin/think-captcha": "1.0.0"
 
 
 ## 说明

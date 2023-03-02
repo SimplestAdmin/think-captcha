@@ -1,9 +1,9 @@
 {
-    "name": "SimplestAdmin/think-captcha",
+    "name": "simplestadmin/think-captcha",
     "description": "Captcha package for API",
     "authors": [
         {
-            "name": "SimplestAdmin",
+            "name": "simplestadmin",
             "email": "11905091@qq.com"
         }
     ],
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "raiseinfo\\captcha\\": "src/"
+            "simplestadmin\\captcha\\": "src/"
         },
         "files": [
             "src/helper.php"
@@ -22,7 +22,7 @@
     "extra": {
         "think": {
             "services": [
-                "raiseinfo\\captcha\\CaptchaService"
+                "simplestadmin\\captcha\\CaptchaService"
             ],
             "config":{
                 "captcha": "src/config.php"
