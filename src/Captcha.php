@@ -234,6 +234,7 @@ class Captcha
         @unlink($tmpfname);
         imagedestroy($this->im);
 
+        $code['value']  = $generator['value'];
         $code['key']  = $generator['key'];
         $code['img'] = $img_base64;
 
